@@ -23,8 +23,7 @@
     },
     methods: {
       login() {
-        // Implement login logic here
-        // Upon successful login, redirect to todos
+        
         this.$router.push('/todos');
       }
     }
@@ -32,6 +31,5 @@
   </script>
   
   <style>
-  /* Add your styles here */
   </style>
   

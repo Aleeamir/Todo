@@ -1,4 +1,3 @@
-<!-- ViewUpdateToDo.vue -->
 <template>
     <div>
       <h2>View/Update ToDo</h2>
@@ -24,18 +23,15 @@
     },
     methods: {
       updateToDo() {
-        // Implement update ToDo logic here
-        // Upon successful update, redirect to todos
+        
         this.$router.push('/todos');
       }
     },
     mounted() {
-      // Fetch ToDo item with this.id from the server and populate title and description
     }
   }
   </script>
   
   <style>
-  /* Add your styles here */
   </style>
   

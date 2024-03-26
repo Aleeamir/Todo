@@ -1,4 +1,3 @@
-<!-- Register.vue -->
 <template>
     <div>
       <h2>Register</h2>
@@ -26,8 +25,7 @@
     },
     methods: {
       register() {
-        // Implement registration logic here
-        // Upon successful registration, redirect to login
+       
         this.$router.push('/login');
       }
     }
@@ -35,6 +33,5 @@
   </script>
   
   <style>
-  /* Add your styles here */
   </style>
   

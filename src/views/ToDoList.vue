@@ -1,4 +1,3 @@
-<!-- ToDoList.vue -->
 <template>
   <div>
     <h2>ToDo List</h2>
@@ -25,7 +24,7 @@ export default {
   methods: {
     async fetchTodos() {
       try {
-        const response = await axios.get('https://api.example.com/todos');
+        const response = await axios.get('http://3.232.244.22/api/item');
         this.todos = response.data;
       } catch (error) {
         console.error('Error fetching todos:', error);
@@ -33,7 +32,7 @@ export default {
     },
     async deleteTodo(id) {
       try {
-        await axios.delete(`https://api.example.com/todos/${id}`);
+        await axios.delete(`http://3.232.244.22/api/item/${id}`);
         this.todos = this.todos.filter(todo => todo.id !== id);
       } catch (error) {
         console.error('Error deleting todo:', error);
@@ -47,5 +46,4 @@ export default {
 </script>
 
 <style>
-/* Add your styles here */
 </style>

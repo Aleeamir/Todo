@@ -1,4 +1,3 @@
-<!-- CreateToDo.vue -->
 <template>
     <div>
       <h2>Create ToDo</h2>
@@ -23,8 +22,7 @@
     },
     methods: {
       createToDo() {
-        // Implement create ToDo logic here
-        // Upon successful creation, redirect to todos
+   
         this.$router.push('/todos');
       }
     }
@@ -32,6 +30,5 @@
   </script>
   
   <style>
-  /* Add your styles here */
   </style>
   
